@@ -1,6 +1,7 @@
-class Cube {
-    constructor(length) {
+class Triangle {
+    constructor(length, height) {
         this.length = length;
+        this.height = height
     }
     
     getSideLength () {
