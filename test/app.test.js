@@ -1,10 +1,10 @@
-const Cube = require('../src/app').Cube;
+const Triangle = require('../src/app').Triangle;
 const expect = require('chai').expect;
 
-describe('Testing the Cube Functions', function() {
-    it('1. The side length of the Cube', function(done) {
-        let c1 = new Cube(2);
-        expect(c1.getSideLength()).to.equal(2);
+describe('Testing the Triangle Functions', function() {
+    it('1. The base of the Triangle', function(done) {
+        let t1 = new Triangle(10, 5);
+        expect(c1.getBase()).to.equal(10);
         done();
     });
     
