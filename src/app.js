@@ -9,7 +9,7 @@ class Triangle {
     }
     
     getSurfaceArea () {
-        return (this.length * this.length) * 6;
+        return (this.length * this.height) * 0.5;
     }
     
     getVolume () {
