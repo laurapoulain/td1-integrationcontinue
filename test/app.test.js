@@ -14,9 +14,9 @@ describe('Testing the Triangle Functions', function() {
         done()
     });
     
-    it('3. The volume of the Cube', function(done) {
-        let c3 = new Cube(1,3);
-        expect(c3.getVolume()).to.equal(343);
+    it('3. The height of the Triangle', function(done) {
+        let t3 = new Triangle(1,3);
+        expect(t3.getHeight()).to.equal(3);
         done();
     });
     
