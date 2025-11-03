@@ -12,11 +12,11 @@ class Triangle {
         return (this.length * this.height) * 0.5;
     }
     
-    getVolume () {
-        return Math.pow(this.length,3);
+    getHeight () {
+        return this.height;
     }
 }
 
 module.exports = {
-    Cube:Cube
+    Triangle:Triangle
 }
