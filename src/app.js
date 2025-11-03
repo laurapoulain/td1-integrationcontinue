@@ -1,15 +1,15 @@
 class Triangle {
-    constructor(length, height) {
-        this.length = length;
+    constructor(base, height) {
+        this.base = base;
         this.height = height
     }
     
     getSideLength () {
-        return this.length;
+        return this.base;
     }
     
     getSurfaceArea () {
-        return (this.length * this.height) * 0.5;
+        return (this.base * this.height) * 0.5;
     }
     
     getHeight () {
