@@ -4,7 +4,7 @@ class Triangle {
         this.height = height
     }
     
-    getSideLength () {
+    getBase () {
         return this.base;
     }
     
